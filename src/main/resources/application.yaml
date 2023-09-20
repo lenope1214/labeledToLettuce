@@ -1,0 +1,11 @@
+server:
+  port: 8010
+### springdoc-openapi-ui settings
+springdoc:
+  swagger-ui:
+    operations-sorter: alpha
+    groups-order: asc # 정렬 방향을 어디로 정할것인가? (asc, desc)
+    tags-sorter: alpha # 태그로 지정된 값을 알파뱃 순서대로 정렬. 지정 안 하면 기본값으로 임의 순서 정해버림.
+    persist-authorization: true
+    doc-expansion: none
+    path: /swagger-ui.html
